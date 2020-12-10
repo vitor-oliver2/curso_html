@@ -87,6 +87,7 @@ figure.foto-legenda figcaption{
 	padding: 10px;
 	box-sizing: border-box;
 	transition: opacity 1s;
+	text-shadow: 1px 1px 1px #000000;
 }
 
 figure.foto-legenda:hover figcaption{
@@ -250,4 +251,28 @@ footer#rodape a{
 	text-decoration: none;
 	color: #000000;
 	font-weight: bold;
+}
+
+/* FORMATAÇÃO DOS VÍDEOS DO INDEX */
+
+video#filme01 {
+	display: block;
+	position: relative;
+	width: 450px;
+	/*margin: auto;*/
+	/*padding: 20px;*/
+	border: 2px solid #000000;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+video#filme02 {
+	display: block;
+	position: relative;
+	width: 342px;
+	border: 2px solid #000000;
+	padding: 2px;
 }
